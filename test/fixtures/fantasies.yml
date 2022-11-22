@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  character: MyString
+  location: MyString
+  poem: MyString
+  race: MyString
+
+two:
+  character: MyString
+  location: MyString
+  poem: MyString
+  race: MyString
