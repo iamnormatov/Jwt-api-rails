@@ -1,7 +1,7 @@
 class FantasiesController < ApplicationController
   before_action :authorize, only: %i[ create update destroy ]
   before_action :set_fantasy, only: %i[ show update destroy ]
-
+ 
   # GET /fantasies
   def index
     @fantasies = Fantasy.all
