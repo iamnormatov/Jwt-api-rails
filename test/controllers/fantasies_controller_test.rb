@@ -14,7 +14,7 @@ class FantasiesControllerTest < ActionDispatch::IntegrationTest
     assert_difference("Fantasy.count") do
       post fantasies_url, params: { fantasy: { character: @fantasy.character, location: @fantasy.location, poem: @fantasy.poem, race: @fantasy.race } }, as: :json
     end
-
+ 
     assert_response :created
   end
 
