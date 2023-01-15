@@ -5,3 +5,4 @@ class FantasyTest < ActiveSupport::TestCase
   #   assert true
   # end
 end
+ 
